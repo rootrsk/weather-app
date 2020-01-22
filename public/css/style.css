@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+}
+h1 {
+    color: rgb(96, 90, 184);
+}
+img {
+    width:200px;
+    height: 300px;
+}
+footer{
+    background-color:black;
+    color:white;
+    padding: 10px;
+    font-size:30px;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+}
+a{
+    padding: 10px;
+    background-color: grey;
+}
+a:hover{
+    background:lightblue;
+}
+.location-form{
+    margin:20px;
+}
+#location-details p{
+    font-size:  30px;
+    padding :5px;
+}
+form input {
+    padding: 10px;
+}
+form button {
+    padding: 10px;
+}
+form button:hover{
+    background:lightgreen;
+}
