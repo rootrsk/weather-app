@@ -46,4 +46,5 @@ app.get('/weathers',(req,res)=>{
 //Starting a server on port 3000      
 app.listen(port,()=>{
     console.log('Server is running on port '+port)
+    console.log(process.env.PORT)
 })
