@@ -10,7 +10,7 @@ search.addEventListener('submit',(e)=>{
     e.preventDefault()
     console.log(searchs.value)
     location_detail.textContent ='Loading...'
-    fetch('http://localhost:3000/weathers?address='+searchs.value).then((response)=>{
+    fetch('/weathers?address='+searchs.value).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
 
