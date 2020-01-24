@@ -2,7 +2,7 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const geoCode = require('./geoCode')
+const geoCode = require('./geocode')
 const forecast = require('./forecast')
 
 const app = express()
